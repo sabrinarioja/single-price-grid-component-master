@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+:root {
+    /* Primary */
+    --Cyan: #2ab2af;
+    --BrightYellow: #c0df34;
+    /* Neutral */
+    --LightGray: #e5eff5;
+    --GrayishBlue: #98a6bd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--LightGray);
+    font-size: 16px;
+}
+
+.container {
+    border-radius: 7px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.container div:nth-child(1) {
+    background: white;
+}
+
+.container div:nth-child(1) h1 {
+    color: var(--Cyan);
+}
+
+.container div:nth-child(2) {
+    background: var(--Cyan);
+}
+
+.container div:nth-child(3) {
+    background: #2ab2b0a6;
+}
